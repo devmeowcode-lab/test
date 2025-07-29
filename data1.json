@@ -1,0 +1,6204 @@
+{
+  "questions": [
+  {
+    "id": 1,
+    "question": "Đâu là câu lệnh kiểm tra tuổi bằng 25 trong Python?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "if tuoi = 25:"
+      },
+      {
+        "id": "B",
+        "text": "if tuoi != 25:"
+      },
+      {
+        "id": "C",
+        "text": "if 25 == tuoi:"
+      },
+      {
+        "id": "D",
+        "text": "if 25 > tuoi:"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 2,
+    "question": "Hàm nào dưới đây sẽ làm thay đổi tập hợp (set) S1 = {1,2,3,4,5,6}",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "S1.add(6)"
+      },
+      {
+        "id": "B",
+        "text": "S1.update([1,5])"
+      },
+      {
+        "id": "C",
+        "text": "S1.discard(6)"
+      },
+      {
+        "id": "D",
+        "text": "S1.remove(7)"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 3,
+    "question": "Hàm có thể được khai báo ở đâu:",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Module"
+      },
+      {
+        "id": "B",
+        "text": "Class"
+      },
+      {
+        "id": "C",
+        "text": "Trong 1 hàm khác"
+      },
+      {
+        "id": "D",
+        "text": "Tất cả các phương án trên"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 4,
+    "question": "Khởi tạo Tuple có một phần tử với giá trị là 8, câu nào đúng:",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "T = [8]"
+      },
+      {
+        "id": "B",
+        "text": "T = (8)"
+      },
+      {
+        "id": "C",
+        "text": "T = (8,)"
+      },
+      {
+        "id": "D",
+        "text": "T = [8,]"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 5,
+    "question": "Câu nào không đúng với List:",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "List có thể chứa các kiểu khác nhau"
+      },
+      {
+        "id": "B",
+        "text": "List có thể chứa các hàm toán học thao tác trực tiếp lên List"
+      },
+      {
+        "id": "C",
+        "text": "List sử dụng nhiều bộ nhớ hơn Array"
+      },
+      {
+        "id": "D",
+        "text": "List không cần khai báo trước"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 6,
+    "question": "Đoạn code sau có ý nghĩa gì: os.path.dirname(sys.executable)",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Trả về thư mục cài đặt Python"
+      },
+      {
+        "id": "B",
+        "text": "Trả về đường dẫn và tên tệp thực thi Python"
+      },
+      {
+        "id": "C",
+        "text": "Báo lỗi"
+      },
+      {
+        "id": "D",
+        "text": "Trả về danh sách file thực thi (.exe)"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 7,
+    "question": "Kết quả của all([2, 0, 1.7]) là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Error"
+      },
+      {
+        "id": "B",
+        "text": "TRUE"
+      },
+      {
+        "id": "C",
+        "text": "FALSE"
+      },
+      {
+        "id": "D",
+        "text": "0"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 8,
+    "question": "Cú pháp nào đúng để xử lý ngoại lệ?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "try ... catch ... except"
+      },
+      {
+        "id": "B",
+        "text": "try ... except ... else"
+      },
+      {
+        "id": "C",
+        "text": "try ... except ... finally"
+      },
+      {
+        "id": "D",
+        "text": "try ... catch ... finally"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 9,
+    "question": "Ý nghĩa của hàm __init__() trong Python?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Khởi tạo lớp để sử dụng"
+      },
+      {
+        "id": "B",
+        "text": "Khởi tạo một đối tượng mới được khởi tạo"
+      },
+      {
+        "id": "C",
+        "text": "Khởi tạo và đưa tất cả các thuộc tính về 0 khi được gọi"
+      },
+      {
+        "id": "D",
+        "text": "Được gọi khi phương thức bị gọi"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 10,
+    "question": "Đâu là kết quả của complex() trong những đáp án dưới?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "0 + 0j"
+      },
+      {
+        "id": "B",
+        "text": "Nghiệm chấp nhận được"
+      },
+      {
+        "id": "C",
+        "text": "0j"
+      },
+      {
+        "id": "D",
+        "text": "Error"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 11,
+    "question": "Khẳng định nào đúng về giải thuật tìm kiếm theo chiều rộng",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Duyệt tất cả các đỉnh của đồ thị"
+      },
+      {
+        "id": "B",
+        "text": "Miền chấp nhận được"
+      },
+      {
+        "id": "C",
+        "text": "Nghiệm tối ưu"
+      },
+      {
+        "id": "D",
+        "text": "Duyệt tất cả các đỉnh nằm trong danh sách đỉnh kề với đỉnh bắt đầu tìm kiếm"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 12,
+    "question": "Thuật toán tìm kiếm theo chiều rộng sử dụng cấu trúc dữ liệu nào?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Hàng đợi"
+      },
+      {
+        "id": "B",
+        "text": "Ngăn xếp"
+      },
+      {
+        "id": "C",
+        "text": "Mảng 1 chiều"
+      },
+      {
+        "id": "D",
+        "text": "Mảng nhiều chiều"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 13,
+    "question": "Thứ tự các đỉnh được duyệt theo BFS từ A đến F?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "[A B E H I F]"
+      },
+      {
+        "id": "B",
+        "text": "[A B E I H F]"
+      },
+      {
+        "id": "C",
+        "text": "[A B H E I F]"
+      },
+      {
+        "id": "D",
+        "text": "[A B I H E F]"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 14,
+    "question": "Thuật toán nào sau đây không thuộc nhóm heuristic?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Depth First Search"
+      },
+      {
+        "id": "B",
+        "text": "Hill Climbing"
+      },
+      {
+        "id": "C",
+        "text": "A*"
+      },
+      {
+        "id": "D",
+        "text": "Greedy"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 15,
+    "question": "Đâu KHÔNG thuộc nhóm thuật toán heuristic?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "1, 4"
+      },
+      {
+        "id": "B",
+        "text": "1, 3, 5"
+      },
+      {
+        "id": "C",
+        "text": "2, 4"
+      },
+      {
+        "id": "D",
+        "text": "1, 4, 5"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 16,
+    "question": "Trong Hill Climbing, thao tác khi mở rộng nút là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Đưa các đỉnh kề vào ngăn xếp theo thứ tự tăng dần của hàm đánh giá"
+      },
+      {
+        "id": "B",
+        "text": "Đưa tất cả vào hàng đợi"
+      },
+      {
+        "id": "C",
+        "text": "Đưa vào danh sách theo chiều tăng dần"
+      },
+      {
+        "id": "D",
+        "text": "Không mở rộng"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 17,
+    "question": "BFS bắt đầu tìm kiếm từ nút nào?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Nút gốc"
+      },
+      {
+        "id": "B",
+        "text": "Nút lá"
+      },
+      {
+        "id": "C",
+        "text": "Nút cha"
+      },
+      {
+        "id": "D",
+        "text": "Nút con"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 18,
+    "question": "Ý nghĩa của xij = 1 trong BPP",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Mỗi đồ vật chỉ được xếp vào một thùng duy nhất"
+      },
+      {
+        "id": "B",
+        "text": "Tất cả các đồ vật được xếp vào thùng có tổng trọng lượng không vượt quá trọng lượng thùng"
+      },
+      {
+        "id": "C",
+        "text": "Mỗi đồ vật được xếp vào thùng có trọng lượng đúng bằng 1"
+      },
+      {
+        "id": "D",
+        "text": "Tất cả các đồ vật có trọng lượng bằng 1 được xếp vào một thùng"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 19,
+    "question": "Trong BFS, khi lấy đỉnh v ra thì cần làm gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Đưa tất cả đỉnh kề của v vào hàng đợi"
+      },
+      {
+        "id": "B",
+        "text": "Đưa tất cả đỉnh kề vào ngăn xếp"
+      },
+      {
+        "id": "C",
+        "text": "Đưa tất cả đỉnh nhỏ nhất vào hàng đợi"
+      },
+      {
+        "id": "D",
+        "text": "Đưa các đỉnh kề phát triển được thành phương án tối ưu vào hàng đợi"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 20,
+    "question": "Đâu không phải là mục đích chính của trích rút đặc trưng?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Loại bỏ dữ liệu dư thừa"
+      },
+      {
+        "id": "B",
+        "text": "Giúp phân lớp tốt hơn"
+      },
+      {
+        "id": "C",
+        "text": "Cải thiện hiệu năng hệ thống"
+      },
+      {
+        "id": "D",
+        "text": "Trích rút dữ liệu quan trọng"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 21,
+    "question": "Trong phương pháp LBP (Local Binary Patterns), khi sử dụng block có kích thước 3x3 thì số điểm ảnh cần so sánh với điểm tâm là bao nhiêu?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 22,
+    "question": "Trong phương pháp lựa chọn đặc trưng theo chiều thuận (Sequential Forward Generation), tập S ban đầu không chứa đặc trưng và được sử dụng để làm gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Lưu trữ tập các đặc trưng bị loại bỏ"
+      },
+      {
+        "id": "B",
+        "text": "Lưu trữ tập các đặc trưng được chọn"
+      },
+      {
+        "id": "C",
+        "text": "Lưu trữ tập các đặc trưng gốc"
+      },
+      {
+        "id": "D",
+        "text": "Lưu trữ tất cả các đặc trưng bị loại bỏ và các đặc trưng được chọn"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 23,
+    "question": "Đâu là mô tả đúng về Bag of Features dựa trên tần số xuất hiện của các điểm ảnh?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "{\"2\":5, \"2\":6, \"3\":7}"
+      },
+      {
+        "id": "B",
+        "text": "{\"1\":5, \"2\":6, \"3\":7}"
+      },
+      {
+        "id": "C",
+        "text": "{\"2\":5, \"2\":6, \"2\":7}"
+      },
+      {
+        "id": "D",
+        "text": "{\"1\":5, \"2\":6, \"3\":2}"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 24,
+    "question": "Khẳng định nào đúng nhất về thuật toán LDA (Linear Discriminant Analysis)?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "LDA tìm kiếm các chiều sao cho độ phân tách giữa các lớp là lớn nhất và độ phân tách trong một lớp là nhỏ nhất"
+      },
+      {
+        "id": "B",
+        "text": "LDA tìm kiếm các chiều sao cho độ phân tách giữa các lớp là nhỏ nhất và độ phân tách trong một lớp là lớn nhất"
+      },
+      {
+        "id": "C",
+        "text": "LDA tìm kiếm các chiều sao cho độ phân tách giữa các lớp là nhỏ nhất"
+      },
+      {
+        "id": "D",
+        "text": "LDA tìm kiếm các chiều sao cho độ phân tách giữa các lớp là lớn nhất"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 25,
+    "question": "Thuật toán LDA (Linear Discriminant Analysis) dùng để làm gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Giảm chiều đặc trưng"
+      },
+      {
+        "id": "B",
+        "text": "Dò biên trong ảnh"
+      },
+      {
+        "id": "C",
+        "text": "Phân vùng ảnh"
+      },
+      {
+        "id": "D",
+        "text": "Lọc nhiễu ảnh"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 26,
+    "question": "Cho tập dữ liệu như sau: P(A|B) là xác suất bệnh nhân bị cảm khi biết họ bị đau đầu. Hỏi P(A|B) là bao nhiêu?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "3-Feb"
+      },
+      {
+        "id": "B",
+        "text": "3-Jan"
+      },
+      {
+        "id": "C",
+        "text": "4-Jan"
+      },
+      {
+        "id": "D",
+        "text": "4-Mar"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 27,
+    "question": "Thuật toán ID3 được đề xuất năm nào?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "1985"
+      },
+      {
+        "id": "B",
+        "text": "1986"
+      },
+      {
+        "id": "C",
+        "text": "1987"
+      },
+      {
+        "id": "D",
+        "text": "1988"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 28,
+    "question": "Gọi Pi là tỷ lệ các mẫu thuộc lớp i trên tập S. Công thức tính Entropy là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "- ∑ Pi * log2(Pi)"
+      },
+      {
+        "id": "B",
+        "text": "Hàm tính khoảng cách giữa hai điểm dữ liệu"
+      },
+      {
+        "id": "C",
+        "text": "Hàm ánh xạ các điểm dữ liệu từ chiều hiện tại sang chiều khác"
+      },
+      {
+        "id": "D",
+        "text": "Hàm trích chọn đặc trưng"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 29,
+    "question": "Kernel trong thuật toán SVM là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Hàm tính khoảng cách giữa hai điểm dữ liệu nằm trên lề"
+      },
+      {
+        "id": "B",
+        "text": "Hàm ánh xạ các điểm dữ liệu từ chiều hiện tại sang chiều khác"
+      },
+      {
+        "id": "C",
+        "text": "Hàm giảm chiều dữ liệu"
+      },
+      {
+        "id": "D",
+        "text": "Hàm trích chọn đặc trưng"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 30,
+    "question": "Khẳng định nào đúng về deep learning?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Deep learning là phương pháp học máy dựa trên mạng học sâu"
+      },
+      {
+        "id": "B",
+        "text": "Deep learning là học máy không có tham số"
+      },
+      {
+        "id": "C",
+        "text": "Deep learning là học máy tuyến tính"
+      },
+      {
+        "id": "D",
+        "text": "Deep learning là học máy không cần dữ liệu"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 31,
+    "question": "Ý nghĩa chính của hàm lỗi (loss function) là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Xác định độ lỗi của model"
+      },
+      {
+        "id": "B",
+        "text": "So sánh độ tốt giữa các model"
+      },
+      {
+        "id": "C",
+        "text": "Dùng để tính gradient trong model"
+      },
+      {
+        "id": "D",
+        "text": "Đánh giá tốc độ học"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 32,
+    "question": "Lệnh nào tạo ra một lớp trong model có mạng nơ ron với số nút là 10 và sử dụng hàm kích hoạt là softmax?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "model.add(layers.Dense(units=10, input_shape=input_shape, activation='relu'))"
+      },
+      {
+        "id": "B",
+        "text": "model.add(layers.Dense(units=10, input_shape=input_shape, activation='softmax'))"
+      },
+      {
+        "id": "C",
+        "text": "'model.add(layers.Dense(units=10, name='softmax', input_shape=input_shape))'"
+      },
+      {
+        "id": "D",
+        "text": "model.add(layers.Dense(units=10, input_shape=softmax))"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 33,
+    "question": "Sử dụng EarlyStopping trong CNN để kết thúc sớm quá trình huấn luyện dựa trên việc theo dõi tỷ lệ chính xác trong tập validation, sử dụng lệnh nào?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "earlystopping = keras.callbacks.EarlyStopping(monitor='val_loss', mode='min', verbose=0)"
+      },
+      {
+        "id": "B",
+        "text": "keras.callbacks.EarlyStopping(monitor='accuracy')"
+      },
+      {
+        "id": "C",
+        "text": "keras.callbacks.EarlyStopping(monitor='val_loss', mode='max', verbose=0)"
+      },
+      {
+        "id": "D",
+        "text": "keras.callbacks.EarlyStopping(monitor='val_loss', mode='max')"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 34,
+    "question": "Đâu là công việc không thuộc giai đoạn chuẩn hóa dữ liệu (value normalization)?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Gán dữ liệu của thuộc tính bị thiếu thành 0"
+      },
+      {
+        "id": "B",
+        "text": "Đưa giá trị của các thuộc tính về trung bình bằng 0 và độ lệch chuẩn bằng 1"
+      },
+      {
+        "id": "C",
+        "text": "Đưa giá trị của các thuộc tính về cùng miền giá trị 0 - 1"
+      },
+      {
+        "id": "D",
+        "text": "Cả 3 phương án trên đều đúng"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 35,
+    "question": "Bước nào dưới đây giúp giảm model bị overfitting?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Dropout"
+      },
+      {
+        "id": "B",
+        "text": "Early stopping"
+      },
+      {
+        "id": "C",
+        "text": "Batch normalization"
+      },
+      {
+        "id": "D",
+        "text": "Cả 3 bước trên"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 36,
+    "question": "Cho model học sâu dưới đây. Xác định số lượng tham số của model này:",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "55744"
+      },
+      {
+        "id": "B",
+        "text": "18496"
+      },
+      {
+        "id": "C",
+        "text": "55584"
+      },
+      {
+        "id": "D",
+        "text": "Cả 3 mạng trên"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 37,
+    "question": "Định nghĩa nào đúng về Normalization và Standardization",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Standardization đưa giá trị của dữ liệu về đoạn [0,1], còn Normalization đưa giá trị về 0 và độ lệch chuẩn là 1"
+      },
+      {
+        "id": "B",
+        "text": "Standardization đưa giá trị của dữ liệu về trung bình là 0 và độ lệch chuẩn là 1"
+      },
+      {
+        "id": "C",
+        "text": "Normalization là các phương pháp hiệu chỉnh dữ liệu"
+      },
+      {
+        "id": "D",
+        "text": "None"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 38,
+    "question": "Các lớp ẩn đưa ra mong muốn cần dựa trên cái gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Đầu ra của lớp trước"
+      },
+      {
+        "id": "B",
+        "text": "Đầu ra của lớp sau"
+      },
+      {
+        "id": "C",
+        "text": "Đầu vào"
+      },
+      {
+        "id": "D",
+        "text": "Đầu ra lớp input"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 39,
+    "question": "list1.append(2[4]) khi gọi hàm trên thì điều gì xảy ra?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Error"
+      },
+      {
+        "id": "B",
+        "text": "Error, Error"
+      },
+      {
+        "id": "C",
+        "text": "Error"
+      },
+      {
+        "id": "D",
+        "text": "Error"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 40,
+    "question": "Phương án nào không đúng khi nói về Numpy array:",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Numpy array có các thao tác chèn (insert), xóa …"
+      },
+      {
+        "id": "B",
+        "text": "Numpy array cho phép phép tính vector"
+      },
+      {
+        "id": "C",
+        "text": "Numpy array có nhiều hàm dùng đơn giản"
+      },
+      {
+        "id": "D",
+        "text": "Numpy array tiết kiệm bộ nhớ hơn List"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 41,
+    "question": "Trong Python có các kiểu kế thừa nào?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Kế thừa đơn, kế thừa đa cấp, kế thừa bậc hai, kế thừa đa lớp"
+      },
+      {
+        "id": "B",
+        "text": "Kế thừa đơn, kế thừa bậc hai, kế thừa đa lớp"
+      },
+      {
+        "id": "C",
+        "text": "Kế thừa đa lớp, kế thừa bậc hai"
+      },
+      {
+        "id": "D",
+        "text": "Kế thừa đơn, kế thừa đa lớp"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 42,
+    "question": "Đoạn code sau đây có ý nghĩa gì: os.listdir(D:/Project/Datasets)",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Trả về tất cả các thư mục và tệp tin trong thư mục"
+      },
+      {
+        "id": "B",
+        "text": "Trả về tất cả các tệp tin trong thư mục"
+      },
+      {
+        "id": "C",
+        "text": "Trả về tất cả các thư mục trong thư mục"
+      },
+      {
+        "id": "D",
+        "text": "Trả về tất cả các tệp tin trong thư mục có đuôi .exe"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 43,
+    "question": "Hàm pow(x,y,z) với xyz là một object thực hiện thao tác:",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "List là array trong ngôn ngữ Python"
+      },
+      {
+        "id": "B",
+        "text": "List có giới hạn về số chiều còn array thì không"
+      },
+      {
+        "id": "C",
+        "text": "Từ khóa lambda được sử dụng để định nghĩa hàm"
+      },
+      {
+        "id": "D",
+        "text": "List thay đổi được kích thước còn array thì không"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 44,
+    "question": "Câu đúng khi nói về sự khác nhau giữa list và array:",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "List là array trong ngôn ngữ Python"
+      },
+      {
+        "id": "B",
+        "text": "List có giới hạn về số chiều còn array thì không"
+      },
+      {
+        "id": "C",
+        "text": "Từ khóa lambda được sử dụng để định nghĩa hàm"
+      },
+      {
+        "id": "D",
+        "text": "List thay đổi được kích thước còn array thì không"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 45,
+    "question": "Hàm lambda là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Ba phương án trên đúng"
+      },
+      {
+        "id": "B",
+        "text": "Hàm ẩn danh"
+      },
+      {
+        "id": "C",
+        "text": "Không có tên"
+      },
+      {
+        "id": "D",
+        "text": "Được dùng định nghĩa nhanh các hàm"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 46,
+    "question": "Đâu là kết quả của đoạn code sau: import numpy as np  a = np.array([[2, 3]])  b = np.shape(a)",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "c.shape = (2, 3)"
+      },
+      {
+        "id": "B",
+        "text": "c.shape = (2, 2)"
+      },
+      {
+        "id": "C",
+        "text": "c.shape = (1, 2)"
+      },
+      {
+        "id": "D",
+        "text": "c.shape = (4, 4)"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 47,
+    "question": "Đâu là lệnh chính xác để khởi tạo mảng 1 chiều trong numpy?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "numpy.random.rand(1, 2)"
+      },
+      {
+        "id": "B",
+        "text": "numpy.random.rand(2, 1000)"
+      },
+      {
+        "id": "C",
+        "text": "numpy.random.randint(2, size=1000)"
+      },
+      {
+        "id": "D",
+        "text": "numpy.random.randn(2, size=1000)"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 48,
+    "question": "Câu lệnh nào sau mô phỏng đúng tập ngẫu nhiên 1000 lần với 10 lựa chọn",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "numpy.random.randint(0, 100, size=1000)"
+      },
+      {
+        "id": "B",
+        "text": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]"
+      },
+      {
+        "id": "C",
+        "text": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]"
+      },
+      {
+        "id": "D",
+        "text": "[0, 1, 5, 3, 6, 7, 4, 8, 2]"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 49,
+    "question": "Đoạn code nào dưới đây là lệnh hoàn chỉnh khi muốn in giá cuốn sách? self.__price = 256  print(...)",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "print(_book__price)"
+      },
+      {
+        "id": "B",
+        "text": "print(book__price)"
+      },
+      {
+        "id": "C",
+        "text": "print(__book__price)"
+      },
+      {
+        "id": "D",
+        "text": "print(_Book__price)"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 50,
+    "question": "Hàm nào thực hiện tính trung vị cho mảng x = numpy.array([5,7,9])",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "numpy.nan_median()"
+      },
+      {
+        "id": "B",
+        "text": "numpy.median()"
+      },
+      {
+        "id": "C",
+        "text": "numpy.mediannan()"
+      },
+      {
+        "id": "D",
+        "text": "numpy.namedmedian()"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 51,
+    "question": "Khẳng định nào đúng về thuật toán Best First Search",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Best first search = Tìm kiếm theo chiều rộng + hàm đánh giá"
+      },
+      {
+        "id": "B",
+        "text": "Best first search = Tìm kiếm theo chiều sâu + hàm đánh giá"
+      },
+      {
+        "id": "C",
+        "text": "Best first search = Hàm Heuristic chấp nhận được"
+      },
+      {
+        "id": "D",
+        "text": "Best first search = Tìm kiếm theo chiều rộng"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 52,
+    "question": "Xét các tiêu chí sau (1) Tốc độ nhanh nhất, (2) Độ chính xác cao nhất, (3) Mức tiêu thụ tài nguyên thấp nhất. Lựa chọn phương án đáp ứng nhiều tiêu chí nhất",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "tiêu chí 1 và 2"
+      },
+      {
+        "id": "B",
+        "text": "tiêu chí 3 và 4"
+      },
+      {
+        "id": "C",
+        "text": "tiêu chí 1 và 3"
+      },
+      {
+        "id": "D",
+        "text": "tiêu chí 2 và 4"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 53,
+    "question": "Xét đồ thị như hình sau, hãy chỉ ra thứ tự các đỉnh khi áp dụng thuật toán tìm kiếm theo chiều sâu (DFS)",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "G, H, I, J"
+      },
+      {
+        "id": "B",
+        "text": "E, F, G"
+      },
+      {
+        "id": "C",
+        "text": "A, B, E, F, G"
+      },
+      {
+        "id": "D",
+        "text": "B, D, E"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 54,
+    "question": "Đâu KHÔNG phải là tính chất của Best First Search",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "[H, I, J, L]"
+      },
+      {
+        "id": "B",
+        "text": "[I, L, J]"
+      },
+      {
+        "id": "C",
+        "text": "[E, F, G]"
+      },
+      {
+        "id": "D",
+        "text": "[A, B, E, F, G]"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 55,
+    "question": "Câu lệnh nào sau mô tả đúng bước 3 trong ID3",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Bước 3"
+      },
+      {
+        "id": "B",
+        "text": "Bước 2"
+      },
+      {
+        "id": "C",
+        "text": "Bước 4"
+      },
+      {
+        "id": "D",
+        "text": "Bước 1"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 56,
+    "question": "Xét mạng nơ ron với ma trận trọng số và bias như sau: Giá trị đầu ra của vector [2,-1] bằng bao nhiêu (Giả sử dùng hàm kích hoạt Sigmoid)",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "[0.69, 0.35]"
+      },
+      {
+        "id": "B",
+        "text": "[1, 0]"
+      },
+      {
+        "id": "C",
+        "text": "[0.35, 0.45]"
+      },
+      {
+        "id": "D",
+        "text": "[0.61, 0.38]"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 57,
+    "question": "Điểm khác biệt chính trong việc tìm siêu phẳng phân tách của hai lớp giữa SVM và PLA là?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "PLA tìm siêu phẳng phân tách của hai lớp có rìa (margin) nhỏ nhất"
+      },
+      {
+        "id": "B",
+        "text": "SVM tìm siêu phẳng phân tách của hai lớp có rìa (margin) lớn nhất"
+      },
+      {
+        "id": "C",
+        "text": "SVM và PLA đều tìm siêu phẳng phân tách"
+      },
+      {
+        "id": "D",
+        "text": "Không phải các đáp án trên"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 58,
+    "question": "Trong lớp Conv2D, đối số padding=\"valid\" có nghĩa là",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Thêm các hàng/cột bằng 0 vào dữ liệu đầu vào"
+      },
+      {
+        "id": "B",
+        "text": "Không thêm các hàng/cột bằng 0 vào dữ liệu đầu vào"
+      },
+      {
+        "id": "C",
+        "text": "Tính toán để phù hợp kích thước kernel"
+      },
+      {
+        "id": "D",
+        "text": "Khác"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 59,
+    "question": "Cho tập dữ liệu gồm 10.000 ảnh, nếu batch size là 200 thì một epoch có bao nhiêu iteration",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "200"
+      },
+      {
+        "id": "B",
+        "text": "18496"
+      },
+      {
+        "id": "C",
+        "text": "55744"
+      },
+      {
+        "id": "D",
+        "text": "36874"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 60,
+    "question": "Autoencoder là gì",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Kiến trúc của Model trong học sâu"
+      },
+      {
+        "id": "B",
+        "text": "Một phương pháp học máy"
+      },
+      {
+        "id": "C",
+        "text": "Một phương pháp trong khai phá dữ liệu"
+      },
+      {
+        "id": "D",
+        "text": "None"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 61,
+    "question": "Khẳng định nào không đúng về Gradient Clipping",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Gradient Clipping chỉ làm cho quá trình huấn luyện được ổn định"
+      },
+      {
+        "id": "B",
+        "text": "Gradient Clipping được sử dụng để giải quyết vấn đề \"exploding gradient\""
+      },
+      {
+        "id": "C",
+        "text": "Gradient Clipping giúp cải thiện hiệu năng của model"
+      },
+      {
+        "id": "D",
+        "text": "Gradient Clipping giới hạn độ lớn của gradient"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 62,
+    "question": "Kích thước filter của layer 2 trong model Alexnet là bao nhiêu",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "3 × 3"
+      },
+      {
+        "id": "B",
+        "text": "5 × 5"
+      },
+      {
+        "id": "C",
+        "text": "7 × 7"
+      },
+      {
+        "id": "D",
+        "text": "11 × 11"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 63,
+    "question": "Hình ảnh đầu vào và output shape có liên quan như thế nào",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "LeakyReLU"
+      },
+      {
+        "id": "B",
+        "text": "SELU"
+      },
+      {
+        "id": "C",
+        "text": "ELU"
+      },
+      {
+        "id": "D",
+        "text": "Khác"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 64,
+    "question": "Trong 3 bài toán: binary, single-label, multi-class, đâu là hàm kích hoạt phù hợp nhất?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Binary classification + sigmoid + ..."
+      },
+      {
+        "id": "B",
+        "text": "Binary classification + sigmoid + categorical_crossentropy"
+      },
+      {
+        "id": "C",
+        "text": "Binary classification + softmax + categorical_crossentropy"
+      },
+      {
+        "id": "D",
+        "text": "Binary classification + sigmoid + mse"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 65,
+    "question": "Đâu là công thức quy định một block của mạng ResNet V1",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Conv1D-BatchNormalization(BN)-ReLU"
+      },
+      {
+        "id": "B",
+        "text": "BatchNormalization(BN)-ReLU-Conv2D"
+      },
+      {
+        "id": "C",
+        "text": "Conv2D-BatchNormalization(BN)-ReLU"
+      },
+      {
+        "id": "D",
+        "text": "Conv2D-Ensemble"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 66,
+    "question": "Kỹ thuật Dropout tương tự kỹ thuật nào dưới đây?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Bagging"
+      },
+      {
+        "id": "B",
+        "text": "Boosting"
+      },
+      {
+        "id": "C",
+        "text": "Stacking"
+      },
+      {
+        "id": "D",
+        "text": "None"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 67,
+    "question": "Để có thể gọi point1 + point2 cần làm gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Viết 1 hàm add để thực hiện cộng 2 đối tượng"
+      },
+      {
+        "id": "B",
+        "text": "Nạp chồng (Override) phương thức __add__"
+      },
+      {
+        "id": "C",
+        "text": "Không cần làm gì cả"
+      },
+      {
+        "id": "D",
+        "text": "Không làm được"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 68,
+    "question": "array2 == array1? (Numpy reshape)",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "1 mảng numpy array giống nhau"
+      },
+      {
+        "id": "B",
+        "text": "1 mảng numpy array khác"
+      },
+      {
+        "id": "C",
+        "text": "Không phải mảng numpy"
+      },
+      {
+        "id": "D",
+        "text": "None"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 69,
+    "question": "Câu nào không đúng khi nói về List và Tuple",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "List là các đối tượng không thay đổi được còn Tuple thì ngược lại"
+      },
+      {
+        "id": "B",
+        "text": "List sử dụng nhiều bộ nhớ hơn Tuple khi cùng số thành phần"
+      },
+      {
+        "id": "C",
+        "text": "Tạo List cần học các phương thức như append()"
+      },
+      {
+        "id": "D",
+        "text": "Tuple ít tốn bộ nhớ hơn List"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 70,
+    "question": "Kết quả nào là output của đoạn code dưới đây (dấu phân thập hiển thị từ 1)?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "finally, 1/0"
+      },
+      {
+        "id": "B",
+        "text": "except, finally"
+      },
+      {
+        "id": "C",
+        "text": "except"
+      },
+      {
+        "id": "D",
+        "text": "1/0, except"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 71,
+    "question": "Xác định kết quả đoạn code sau: list(range(1, 6))",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "(1, 2, 3, 4, 5)"
+      },
+      {
+        "id": "B",
+        "text": "{1, 2, 3, 4, 5}"
+      },
+      {
+        "id": "C",
+        "text": "[1, 2, 3, 4, 5]"
+      },
+      {
+        "id": "D",
+        "text": "(5, 1, 5, 2)"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 72,
+    "question": "Một lớp con thừa một định nghĩa hàm từ lớp cha nhưng được kế thừa lại → từ lớp cha được gọi là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Overriding"
+      },
+      {
+        "id": "B",
+        "text": "Inheritance"
+      },
+      {
+        "id": "C",
+        "text": "Polymorphism"
+      },
+      {
+        "id": "D",
+        "text": "Overloading"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 73,
+    "question": "Kết quả nào là output của đoạn code vòng lặp while với value = 10 và in ra giá trị trước khi giảm?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "10 10 20"
+      },
+      {
+        "id": "B",
+        "text": "10 10"
+      },
+      {
+        "id": "C",
+        "text": "10 10 20 10"
+      },
+      {
+        "id": "D",
+        "text": "None 10"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 74,
+    "question": "Kết quả đoạn code: T = (1,2,3,1,5,2,6); T.index(3)",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "13"
+      },
+      {
+        "id": "B",
+        "text": "2, 5, 6"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "3"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 75,
+    "question": "Kết quả của đoạn code: st.mean([2,4,3,3,4,1])",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "2.83"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 76,
+    "question": "Đoạn code đúng để loại phần tử trùng trong danh sách L = [1,2,3,4,3]",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "L2 = numpy.remove_duplicate(L)"
+      },
+      {
+        "id": "B",
+        "text": "L2 = L1.remove_duplicate()"
+      },
+      {
+        "id": "C",
+        "text": "L2 = list(set(L))"
+      },
+      {
+        "id": "D",
+        "text": "L2 = list(set(L1))"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 77,
+    "question": "Đâu không phải là thuộc tính thường thấy trong Python object?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "__iter__"
+      },
+      {
+        "id": "B",
+        "text": "__eq__"
+      },
+      {
+        "id": "C",
+        "text": "staticmethod"
+      },
+      {
+        "id": "D",
+        "text": "classmethod"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 78,
+    "question": "Phép cộng hai tuple trong Python thực hiện ra sao?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Mở tệp và cho phép đọc và ghi cuối tệp"
+      },
+      {
+        "id": "B",
+        "text": "Mở tệp để đọc hoặc ghi"
+      },
+      {
+        "id": "C",
+        "text": "Mở để đọc"
+      },
+      {
+        "id": "D",
+        "text": "Mở để ghi"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 79,
+    "question": "Hàm x = x - x.mean(axis=1) / x.std(axis=1) có nghĩa là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "x = x - x.mean(axis=1)"
+      },
+      {
+        "id": "B",
+        "text": "x = x - x.mean(axis=1) / x.std(axis=1)"
+      },
+      {
+        "id": "C",
+        "text": "x = x.mean(axis=1)"
+      },
+      {
+        "id": "D",
+        "text": "x = x / x.std(axis=1)"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 80,
+    "question": "Kết quả của hàm numpy.mean(x) với x là mảng 2D [[12,23],[24,26],[92,89]]",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "23"
+      },
+      {
+        "id": "B",
+        "text": "56"
+      },
+      {
+        "id": "C",
+        "text": "89"
+      },
+      {
+        "id": "D",
+        "text": "42.5"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 81,
+    "question": "Đâu không phải thuộc tính của module?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "__name__"
+      },
+      {
+        "id": "B",
+        "text": "__dict__"
+      },
+      {
+        "id": "C",
+        "text": "__list__"
+      },
+      {
+        "id": "D",
+        "text": "__module__"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 82,
+    "question": "Kết quả đoạn code dùng collections.Counter.most_common",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "[(4, 4)]"
+      },
+      {
+        "id": "B",
+        "text": "[(2, 2)]"
+      },
+      {
+        "id": "C",
+        "text": "[(4, 4), (2, 2)]"
+      },
+      {
+        "id": "D",
+        "text": "Error"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 83,
+    "question": "Kết quả đoạn code: print(colors.items()) với dict chứa list",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "[('1', ['blue']), ('2', ['red']), ('3', ['green'])]"
+      },
+      {
+        "id": "B",
+        "text": "[('1', 'blue'), ('2', 'red'), ('3', 'green')]"
+      },
+      {
+        "id": "C",
+        "text": "[('1', 'blue'), ['2', 'red'], ['3', 'green']]"
+      },
+      {
+        "id": "D",
+        "text": "['blue', 'red', 'green']"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 84,
+    "question": "Câu nào không đúng về độ sâu mô hình?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Tăng độ sâu không làm tăng độ hiệu quả huấn luyện"
+      },
+      {
+        "id": "B",
+        "text": "Tăng độ sâu thường làm tăng độ hiệu quả"
+      },
+      {
+        "id": "C",
+        "text": "Tăng độ sâu không luôn làm tăng hiệu quả"
+      },
+      {
+        "id": "D",
+        "text": "Tăng độ sâu không luôn làm tăng độ chia phân lớp"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 85,
+    "question": "Tìm kiếm theo chiến lược cực cận có đặc điểm gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Không tìm được tập tối ưu"
+      },
+      {
+        "id": "B",
+        "text": "Luôn tìm được tập tối ưu"
+      },
+      {
+        "id": "C",
+        "text": "Tìm được tập con tối ưu"
+      },
+      {
+        "id": "D",
+        "text": "Chỉ tìm được tập con tối ưu nếu biết tập chuẩn"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 86,
+    "question": "Đâu là ưu điểm của Random Forest?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Random Forest không bị overfitting"
+      },
+      {
+        "id": "B",
+        "text": "Random Forest dễ overfitting"
+      },
+      {
+        "id": "C",
+        "text": "Random Forest xử lý nhanh"
+      },
+      {
+        "id": "D",
+        "text": "Chỉ áp dụng cho bài toán hồi quy"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 87,
+    "question": "Chọn hàm số bình phương làm hàm mất mát, chọn 2 cặp giá trị sau khi chuẩn hóa bằng bao nhiêu?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "240"
+      },
+      {
+        "id": "B",
+        "text": "246"
+      },
+      {
+        "id": "C",
+        "text": "104"
+      },
+      {
+        "id": "D",
+        "text": "120"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 88,
+    "question": "Tìm kiếm đặc trưng theo Heuristic có đặc điểm gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Luôn tìm được tập con tối ưu"
+      },
+      {
+        "id": "B",
+        "text": "Chỉ tìm được tập con tốt hơn"
+      },
+      {
+        "id": "C",
+        "text": "Không hiệu quả"
+      },
+      {
+        "id": "D",
+        "text": "Tùy vào bài toán"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 89,
+    "question": "Câu không đúng nào về hàm số lồi",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Hai đồ thị hàm lồi thì cộng lại vẫn lồi"
+      },
+      {
+        "id": "B",
+        "text": "Hàm lồi thì hiển thị hàm không lồi (non-convex)"
+      },
+      {
+        "id": "C",
+        "text": "Hàm lồi hiển thị parabol"
+      },
+      {
+        "id": "D",
+        "text": "Hàm lồi có đạo hàm đơn điệu"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 90,
+    "question": "Overfitting xảy ra khi nào?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Khi mô hình đạt kết quả tốt trên tập train nhưng kém trên tập test"
+      },
+      {
+        "id": "B",
+        "text": "Khi mô hình đạt kết quả kém trên cả hai"
+      },
+      {
+        "id": "C",
+        "text": "Khi mô hình có độ bias cao"
+      },
+      {
+        "id": "D",
+        "text": "Khi mô hình có độ lỗi nhỏ"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 91,
+    "question": "Hàm kích hoạt nào sau đây là sigmoid?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "0.74 * abs(x)"
+      },
+      {
+        "id": "B",
+        "text": "0.74 / (1 + exp(-x))"
+      },
+      {
+        "id": "C",
+        "text": "0.85 + 0.7x"
+      },
+      {
+        "id": "D",
+        "text": "(1 - x²)"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 92,
+    "question": "Giá trị đầu ra của mô hình được xác định như thế nào khi dùng hàm kích hoạt sigmoid?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "[0, 1]"
+      },
+      {
+        "id": "B",
+        "text": "(−∞, ∞)"
+      },
+      {
+        "id": "C",
+        "text": "(−1, 1)"
+      },
+      {
+        "id": "D",
+        "text": "[−1, 1]"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 93,
+    "question": "Khi huấn luyện mô hình phân lớp nhị phân, accuracy > 70% có nghĩa là?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Lớn hơn hoặc bằng 70%"
+      },
+      {
+        "id": "B",
+        "text": "Nhỏ hơn 70%"
+      },
+      {
+        "id": "C",
+        "text": "Không xác định"
+      },
+      {
+        "id": "D",
+        "text": "Không có tác dụng"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 94,
+    "question": "Cho model học sâu như dưới đây, số lượng tham số của lớp Conv2D là bao nhiêu?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "2112"
+      },
+      {
+        "id": "B",
+        "text": "18496"
+      },
+      {
+        "id": "C",
+        "text": "18432"
+      },
+      {
+        "id": "D",
+        "text": "93312"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 95,
+    "question": "Chọn đúng thành phần của CNN",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Convolutional layers, Batch Normalization, Dense"
+      },
+      {
+        "id": "B",
+        "text": "Convolutional layers, Pooling layers, Dense"
+      },
+      {
+        "id": "C",
+        "text": "Convolutional layers, Fully connected layers"
+      },
+      {
+        "id": "D",
+        "text": "Dense + normalization"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 96,
+    "question": "Hàm kích hoạt + hàm mất mát phù hợp là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "sigmoid + categorical_crossentropy"
+      },
+      {
+        "id": "B",
+        "text": "sigmoid + mse"
+      },
+      {
+        "id": "C",
+        "text": "softmax + mse"
+      },
+      {
+        "id": "D",
+        "text": "None"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 97,
+    "question": "Hàm kích hoạt nào dùng trong CNN?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "ReLU"
+      },
+      {
+        "id": "B",
+        "text": "SELU"
+      },
+      {
+        "id": "C",
+        "text": "ELU"
+      },
+      {
+        "id": "D",
+        "text": "Tất cả đều đúng nếu là hyperparameter"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 98,
+    "question": "Đoạn giải mã sẽ thể hiện nguyên lý hoạt động của mạng nào?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Recurrent Neural Networks"
+      },
+      {
+        "id": "B",
+        "text": "Resnet"
+      },
+      {
+        "id": "C",
+        "text": "GoogleNet"
+      },
+      {
+        "id": "D",
+        "text": "VGGNet"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 99,
+    "question": "Cho model học sâu như dưới đây, số lượng tham số là bao nhiêu?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "55744"
+      },
+      {
+        "id": "B",
+        "text": "56394"
+      },
+      {
+        "id": "C",
+        "text": "93312"
+      },
+      {
+        "id": "D",
+        "text": "93322"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 100,
+    "question": "Đâu là tên biến hợp lệ trong Python?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "2_VRD"
+      },
+      {
+        "id": "B",
+        "text": "@VRD"
+      },
+      {
+        "id": "C",
+        "text": "VRD"
+      },
+      {
+        "id": "D",
+        "text": "FALSE"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 101,
+    "question": "Đâu là câu lệnh kiểm tra tuổi bằng 25 trong Python:",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "if tuoi = 25:"
+      },
+      {
+        "id": "B",
+        "text": "@VRD"
+      },
+      {
+        "id": "C",
+        "text": "if 25 == tuoi:"
+      },
+      {
+        "id": "D",
+        "text": "if 25 > tuoi:"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 102,
+    "question": "Đâu là câu lệnh trả về ký tự t ở trong chuỗi chao:",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "chao[-1]"
+      },
+      {
+        "id": "B",
+        "text": "chao[100]"
+      },
+      {
+        "id": "C",
+        "text": "chao[0]"
+      },
+      {
+        "id": "D",
+        "text": "chao['t']"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 103,
+    "question": "Khối lệnh nào trong Python sau đây là hợp lệ:",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "If dieu_kien: {Khoi_Lenh()}"
+      },
+      {
+        "id": "B",
+        "text": "If dieu_kien: (Khoi_Lenh())"
+      },
+      {
+        "id": "C",
+        "text": "If dieu_kien: [Khoi_Lenh()]"
+      },
+      {
+        "id": "D",
+        "text": "If dieu_kien: Khoi_Lenh()"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 104,
+    "question": "Từ khóa nào giúp bạn có thể liệt kê tất cả các ước của một số nguyên dương n:",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "break"
+      },
+      {
+        "id": "B",
+        "text": "return"
+      },
+      {
+        "id": "C",
+        "text": "continue"
+      },
+      {
+        "id": "D",
+        "text": "go to"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 105,
+    "question": "Đâu là 1 list hợp lệ trong Python:",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "List_1 = [1, 'a', 'd', 2]"
+      },
+      {
+        "id": "B",
+        "text": "List_2 = (1, 2, 3, 4)"
+      },
+      {
+        "id": "C",
+        "text": "List_3 = {'1', '2', 3, 4}"
+      },
+      {
+        "id": "D",
+        "text": "List_4 = {'item1': 1, 'item2': 2, 'item3': 3}"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 106,
+    "question": "Đâu là câu lệnh chèn 1 phần tử vào cuối 1 list List1:",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "List1.append(phan_tu)"
+      },
+      {
+        "id": "B",
+        "text": "List1.add(phan_tu)"
+      },
+      {
+        "id": "C",
+        "text": "List1.insert(phan_tu)"
+      },
+      {
+        "id": "D",
+        "text": "List1.push(phan_tu)"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 107,
+    "question": "Hàm nào dưới đây sẽ làm thay đổi tập hợp (set) S1 = {1,2,3,4,5,6}:",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "S1.add(6)"
+      },
+      {
+        "id": "B",
+        "text": "S1.update([1,5])"
+      },
+      {
+        "id": "C",
+        "text": "S1.discard(6)"
+      },
+      {
+        "id": "D",
+        "text": "S1.remove(7)"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 108,
+    "question": "Đâu là hàm hợp lệ khi xử lý với Tuple T1 = (2, 4, 8):",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "T1.add(16)"
+      },
+      {
+        "id": "B",
+        "text": "T1.append(16)"
+      },
+      {
+        "id": "C",
+        "text": "T1.count(16)"
+      },
+      {
+        "id": "D",
+        "text": "T1.all(16)"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 109,
+    "question": "Hàm nào sau đây không chấp nhận iterable làm tham số:",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "enumerate()"
+      },
+      {
+        "id": "B",
+        "text": "all()"
+      },
+      {
+        "id": "C",
+        "text": "chr()"
+      },
+      {
+        "id": "D",
+        "text": "max()"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 110,
+    "question": "Cách gọi hàm nào KHÔNG hợp lệ với \ndef thongbao(ten='Vo danh', tuoi=20):",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "thongbao()"
+      },
+      {
+        "id": "B",
+        "text": "thongbao(ten='Voldemort', tuoi=25)"
+      },
+      {
+        "id": "C",
+        "text": "thongbao(tuoi=25, ten='Voldemort')"
+      },
+      {
+        "id": "D",
+        "text": "thongbao(tuoi='Voldemort', 25)"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 111,
+    "question": "Gọi recursion(10) với \ndef recursion(n): \nif n < 100: \nreturn -1; \nreturn n * recursion(n-1) \ncho kết quả?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "10!"
+      },
+      {
+        "id": "B",
+        "text": "Lỗi vòng lặp vô hạn"
+      },
+      {
+        "id": "C",
+        "text": "-1"
+      },
+      {
+        "id": "D",
+        "text": "10"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 112,
+    "question": "Kết quả của a = 1; def inc(): a += 1; print(a); inc() là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "Lỗi chương trình"
+      },
+      {
+        "id": "D",
+        "text": "1 giá trị không rõ"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 113,
+    "question": "Chế độ mở tập tin không cho phép ghi là?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "'w'"
+      },
+      {
+        "id": "B",
+        "text": "'rb'"
+      },
+      {
+        "id": "C",
+        "text": "'ab'"
+      },
+      {
+        "id": "D",
+        "text": "'r+'"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 114,
+    "question": "Phương thức đọc 1 dòng từ tập tin?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "readline()"
+      },
+      {
+        "id": "B",
+        "text": "readlines()"
+      },
+      {
+        "id": "C",
+        "text": "readable()"
+      },
+      {
+        "id": "D",
+        "text": "read(n)"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 115,
+    "question": "Cú pháp đúng để xử lý ngoại lệ trong Python?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "try ... catch ... except"
+      },
+      {
+        "id": "B",
+        "text": "if ... except ... else"
+      },
+      {
+        "id": "C",
+        "text": "try ... except ... finally"
+      },
+      {
+        "id": "D",
+        "text": "try ... catch ... finally"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 116,
+    "question": "Để thực hiện point3 = point1 + point2 với class Point thì cần?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Nạp chồng phương thức add"
+      },
+      {
+        "id": "B",
+        "text": "Nạp chồng phương thức add"
+      },
+      {
+        "id": "C",
+        "text": "Không cần làm gì cả"
+      },
+      {
+        "id": "D",
+        "text": "Viết hàm add để cộng đối tượng"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 117,
+    "question": "Trong class Human, thuộc tính nào là static, public, private?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "married là private, name và age là public, salary là static"
+      },
+      {
+        "id": "B",
+        "text": "married là public, name và age là private, salary là static"
+      },
+      {
+        "id": "C",
+        "text": "married là static, name và age là public, salary là private"
+      },
+      {
+        "id": "D",
+        "text": "married là static, name và age là public, salary là static"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 118,
+    "question": "Gọi student1 = Student(10); print(student1.name) cho class Student kế thừa Human?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Lỗi do Student không có name"
+      },
+      {
+        "id": "B",
+        "text": "'vo danh'"
+      },
+      {
+        "id": "C",
+        "text": "Giá trị bất kỳ"
+      },
+      {
+        "id": "D",
+        "text": "10"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 119,
+    "question": "Lệnh thay đổi __salary trong class Human là?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "human1.__salary = 20000"
+      },
+      {
+        "id": "B",
+        "text": "Không thể thay đổi vì là private"
+      },
+      {
+        "id": "C",
+        "text": "human1._Human__salary = 20000"
+      },
+      {
+        "id": "D",
+        "text": "human1.salary = 20000"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 120,
+    "question": "Cho class Human và danh sách list_human. Để sắp xếp theo age, cần override toán tử nào?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "__lt__"
+      },
+      {
+        "id": "B",
+        "text": "__add__"
+      },
+      {
+        "id": "C",
+        "text": "__sub__"
+      },
+      {
+        "id": "D",
+        "text": "__mul__"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 121,
+    "question": "array1 * array2 cho kết quả gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Lỗi vì 2 mảng không cùng kích thước"
+      },
+      {
+        "id": "B",
+        "text": "[[2 6 12 20], [2 9 20 35]]"
+      },
+      {
+        "id": "C",
+        "text": "Mảng với nhiều dòng hơn"
+      },
+      {
+        "id": "D",
+        "text": "[40, 66]"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 122,
+    "question": "array1[::-2] của mảng 1 đến 9 là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "[1 3 5 7 9]"
+      },
+      {
+        "id": "B",
+        "text": "[2 4 6 8]"
+      },
+      {
+        "id": "C",
+        "text": "Lỗi vì index âm"
+      },
+      {
+        "id": "D",
+        "text": "[9 7 5 3 1]"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 123,
+    "question": "Kết quả khi reshape và transpose mảng 1-9?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "[[1 4 7], [2 5 8], [3 6 9]]"
+      },
+      {
+        "id": "B",
+        "text": "[[1 2 3], [4 5 6], [7 8 9]]"
+      },
+      {
+        "id": "C",
+        "text": "[[3 2 1], [6 5 4], [9 8 7]]"
+      },
+      {
+        "id": "D",
+        "text": "[[7 4 1], [8 5 2], [9 6 3]]"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 124,
+    "question": "Đoạn code tìm index lớn nhất trong list, kết quả là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "x là giá trị lớn nhất của list"
+      },
+      {
+        "id": "B",
+        "text": "x là giá trị nhỏ nhất của list"
+      },
+      {
+        "id": "C",
+        "text": "x là chỉ số của phần tử lớn nhất"
+      },
+      {
+        "id": "D",
+        "text": "x là chỉ số của phần tử nhỏ nhất"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 125,
+    "question": "Kết quả point3 = point1 - point2 với __sub__ như trên?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "1 đối tượng Point có x=1, y=1"
+      },
+      {
+        "id": "B",
+        "text": "1 đối tượng Point có x=4, y=3"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 126,
+    "question": "Nếu mở file không tồn tại thì sao?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Python tự tạo file mới"
+      },
+      {
+        "id": "B",
+        "text": "Không có gì xảy ra"
+      },
+      {
+        "id": "C",
+        "text": "Gây ra ngoại lệ (exception)"
+      },
+      {
+        "id": "D",
+        "text": "Không có đáp án nào đúng"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 127,
+    "question": "Kết quả đoạn code có yield và send()?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "10 10 20"
+      },
+      {
+        "id": "B",
+        "text": "10 None 20"
+      },
+      {
+        "id": "C",
+        "text": "10 None 20"
+      },
+      {
+        "id": "D",
+        "text": "10 None None"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 128,
+    "question": "Kết quả all([2,4,6,0]) là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Lỗi chương trình"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "FALSE"
+      },
+      {
+        "id": "D",
+        "text": "FALSE"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 129,
+    "question": "Kết quả của hàm any([1>2, 3>4, 4>9]) là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Lỗi chương trình"
+      },
+      {
+        "id": "B",
+        "text": "FALSE"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "FALSE"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 130,
+    "question": "Kết quả của đoạn code sum([2,4,6]), sum([1,2,3])",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "12, 6"
+      },
+      {
+        "id": "B",
+        "text": "12, Error"
+      },
+      {
+        "id": "C",
+        "text": "Error, 6"
+      },
+      {
+        "id": "D",
+        "text": "Error, Error"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 131,
+    "question": "Kết quả của đoạn code chr(‘97’) và chr(97) là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Error, 'a'"
+      },
+      {
+        "id": "B",
+        "text": "'a', Error"
+      },
+      {
+        "id": "C",
+        "text": "'a', 'a'"
+      },
+      {
+        "id": "D",
+        "text": "Error, Error"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 132,
+    "question": "Kết quả đoạn code list(enumerate([2,4])) là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Error"
+      },
+      {
+        "id": "B",
+        "text": "[(1,2), (2,4)]"
+      },
+      {
+        "id": "C",
+        "text": "[(0,2), (1,4)]"
+      },
+      {
+        "id": "D",
+        "text": "[2,4]"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 133,
+    "question": "Hàm nào chỉ chấp nhận số nguyên làm tham số?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "ord()"
+      },
+      {
+        "id": "B",
+        "text": "min()"
+      },
+      {
+        "id": "C",
+        "text": "max()"
+      },
+      {
+        "id": "D",
+        "text": "chr()"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 134,
+    "question": "Đảo ngược list l = [1,2,3,4] nên dùng hàm nào?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "reverse(l)"
+      },
+      {
+        "id": "B",
+        "text": "list(reverse(l))"
+      },
+      {
+        "id": "C",
+        "text": "list(reversed(l))"
+      },
+      {
+        "id": "D",
+        "text": "reversed(l)"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 135,
+    "question": "Kết quả của hex(15) là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "F"
+      },
+      {
+        "id": "B",
+        "text": "0xf"
+      },
+      {
+        "id": "C",
+        "text": "0x15"
+      },
+      {
+        "id": "D",
+        "text": "Error"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 136,
+    "question": "Kết quả len(['Hello', 2, 'World', 8]) là:",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "error"
+      },
+      {
+        "id": "C",
+        "text": "30"
+      },
+      {
+        "id": "D",
+        "text": "2"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 137,
+    "question": "Hàm có thể được khai báo ở đâu?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Module"
+      },
+      {
+        "id": "B",
+        "text": "Class"
+      },
+      {
+        "id": "C",
+        "text": "Trong 1 hàm khác"
+      },
+      {
+        "id": "D",
+        "text": "Tất cả các phương án trên"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 138,
+    "question": "Hàm nào tự động được gọi khi một đối tượng được khởi tạo?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "init"
+      },
+      {
+        "id": "B",
+        "text": "str"
+      },
+      {
+        "id": "C",
+        "text": "class"
+      },
+      {
+        "id": "D",
+        "text": "new"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 139,
+    "question": "Phép (x**y)**z tương đương với biểu thức nào?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "(xy)z"
+      },
+      {
+        "id": "B",
+        "text": "(xy)%z"
+      },
+      {
+        "id": "C",
+        "text": "(xy)/z"
+      },
+      {
+        "id": "D",
+        "text": "(xy)*z"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 140,
+    "question": "Chuẩn hóa ma trận có mean = 0, std = 1 theo chiều dọc",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "x = x / x.mean(axis=0), x = x / x.std(axis=0)"
+      },
+      {
+        "id": "B",
+        "text": "x = x / x.mean(axis=1), x = x / x.std(axis=1)"
+      },
+      {
+        "id": "C",
+        "text": "x = x - x.mean(axis=0), x = x / x.std(axis=0)"
+      },
+      {
+        "id": "D",
+        "text": "x = x - x.mean(axis=1), x = x / x.std(axis=1)"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 141,
+    "question": "Câu nào không đúng khi nói về Tuple?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "List là các đối tượng không thay đổi, Tuple ngược lại"
+      },
+      {
+        "id": "B",
+        "text": "List dùng nhiều bộ nhớ hơn Tuple"
+      },
+      {
+        "id": "C",
+        "text": "List có dấu [], Tuple có dấu ()"
+      },
+      {
+        "id": "D",
+        "text": "T = [8]"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 142,
+    "question": "Câu nào không đúng với List?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "List có các hàm toán học cho phép thao tác trực tiếp lên List"
+      },
+      {
+        "id": "B",
+        "text": "List có thể chứa các dữ liệu không đồng nhất về kiểu"
+      },
+      {
+        "id": "C",
+        "text": "List sử dụng nhiều bộ nhớ hơn Array"
+      },
+      {
+        "id": "D",
+        "text": "Sử dụng List không cần khai báo trước"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 143,
+    "question": "Câu nào đúng khi nói về List và array?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "List là array trong ngôn ngữ Python"
+      },
+      {
+        "id": "B",
+        "text": "List và array đều chứa các phần tử đồng nhất về kiểu"
+      },
+      {
+        "id": "C",
+        "text": "List giới hạn số chiều còn array thì không"
+      },
+      {
+        "id": "D",
+        "text": "List thay đổi được kích thước còn array thì không"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 144,
+    "question": "Hàm lambda là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Hàm nhỏ không có tên và trả về một đối tượng"
+      },
+      {
+        "id": "B",
+        "text": "Hàm lambda được sử dụng như một thành phần của một hàm lớn hơn"
+      },
+      {
+        "id": "C",
+        "text": "Một khóa lambda được sử dụng để định nghĩa"
+      },
+      {
+        "id": "D",
+        "text": "Cả ba phương án trên đều đúng"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 145,
+    "question": "Phương án nào không đúng khi nói về NumPy array?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "NumPy array có các thao tác chèn (insert), xóa (deletion), thêm cuối (appending)"
+      },
+      {
+        "id": "B",
+        "text": "NumPy array cho phép cộng, nhân từng phần tử"
+      },
+      {
+        "id": "C",
+        "text": "NumPy array có nhiều hàm dựng sẵn"
+      },
+      {
+        "id": "D",
+        "text": "NumPy array tiết kiệm bộ nhớ hơn List"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 146,
+    "question": "Trong Python có các kiểu kế thừa nào?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Kế thừa đơn, kế thừa theo thứ bậc, kế thừa đa lớp"
+      },
+      {
+        "id": "B",
+        "text": "Kế thừa đơn, kế thừa đa lớp, kế thừa không theo thứ bậc, đa kế thừa"
+      },
+      {
+        "id": "C",
+        "text": "Kế thừa đơn, kế thừa đa lớp"
+      },
+      {
+        "id": "D",
+        "text": "Kế thừa đơn, kế thừa theo thứ bậc"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 147,
+    "question": "Mở tệp với chế độ ‘a’ có nghĩa gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Mở tệp ở chế độ ghi"
+      },
+      {
+        "id": "B",
+        "text": "Mở tệp ở chế độ ghi tiếp vào cuối tệp"
+      },
+      {
+        "id": "C",
+        "text": "Mở tệp ở chế độ chỉ được phép đọc"
+      },
+      {
+        "id": "D",
+        "text": "Mở tệp để đọc và ghi"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 148,
+    "question": "Khẳng định nào về ngoại lệ (Exception) là đúng nhất?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Ngoại lệ là lỗi phát sinh khi đang thực thi chương trình"
+      },
+      {
+        "id": "B",
+        "text": "Lỗi cú pháp (syntax error) cũng là một ngoại lệ"
+      },
+      {
+        "id": "C",
+        "text": "Ngoại lệ dùng để loại bỏ mọi lỗi"
+      },
+      {
+        "id": "D",
+        "text": "Tất cả các đáp án trên đều đúng"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 149,
+    "question": "Mở tệp với chế độ ‘wb’ có ý nghĩa gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Mở để ghi"
+      },
+      {
+        "id": "B",
+        "text": "Mở để đọc và ghi"
+      },
+      {
+        "id": "C",
+        "text": "Mở tệp để ghi kiểu nhị phân"
+      },
+      {
+        "id": "D",
+        "text": "Mở tệp đọc và ghi kiểu nhị phân"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 150,
+    "question": "Đoạn code sau đây có ý nghĩa gì? f = open('readme.md')",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Mở tệp readme.md và được phép ghi để tệp"
+      },
+      {
+        "id": "B",
+        "text": "Mở tệp readme.md và được phép đọc và ghi vào tệp"
+      },
+      {
+        "id": "C",
+        "text": "Mở tệp readme.md và chỉ được đọc tệp"
+      },
+      {
+        "id": "D",
+        "text": "Mở tệp readme.md và chỉ ghi được"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 151,
+    "question": "os.listdir('D:/Project/Datasets') có ý nghĩa gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Trả về thư mục Datasets"
+      },
+      {
+        "id": "B",
+        "text": "Trả về tất cả thư mục và tệp tin bên trong thư mục Datasets"
+      },
+      {
+        "id": "C",
+        "text": "Trả về tất cả thư mục con, tệp tin bên trong thư mục Datasets và tệp tin bên trong thư mục con"
+      },
+      {
+        "id": "D",
+        "text": "Trả về tất cả thư mục và tệp tin bên trong thư mục Datasets"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 152,
+    "question": "Kết quả output đoạn code:python<br>try:<br> print(1/0)<br>except:<br> print(\"except\")<br>finally:<br> print(\"finally\")<br>",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "finally, 1/0"
+      },
+      {
+        "id": "B",
+        "text": "except, finally"
+      },
+      {
+        "id": "C",
+        "text": "except, finally"
+      },
+      {
+        "id": "D",
+        "text": "1/0, except"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 153,
+    "question": "Đâu không phải kiểu dữ liệu chuẩn trong Python?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Class"
+      },
+      {
+        "id": "B",
+        "text": "List"
+      },
+      {
+        "id": "C",
+        "text": "Tuple"
+      },
+      {
+        "id": "D",
+        "text": "Dictionary"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 154,
+    "question": "Ý nghĩa của hàm __init__() trong Python?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Khởi tạo một lớp để sử dụng"
+      },
+      {
+        "id": "B",
+        "text": "Được gọi khi một đối tượng mới được khởi tạo"
+      },
+      {
+        "id": "C",
+        "text": "Khởi tạo và đưa tất cả các thuộc tính về 0"
+      },
+      {
+        "id": "D",
+        "text": "Không có đáp án đúng"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 155,
+    "question": "os.path.dirname(sys.executable) có ý nghĩa gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Trả về thư mục cài đặt Python"
+      },
+      {
+        "id": "B",
+        "text": "Trả về đường dẫn và tên tệp thực thi Python"
+      },
+      {
+        "id": "C",
+        "text": "Trả về danh sách các tệp thực thi (.exe)"
+      },
+      {
+        "id": "D",
+        "text": "Báo lỗi"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 156,
+    "question": "Kiểu dữ liệu của var = ('7') là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "integer"
+      },
+      {
+        "id": "B",
+        "text": "string"
+      },
+      {
+        "id": "C",
+        "text": "tuple"
+      },
+      {
+        "id": "D",
+        "text": "operator"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 157,
+    "question": "Kết quả của print('Hello'[::-1]) là?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "olleH"
+      },
+      {
+        "id": "B",
+        "text": "Hell"
+      },
+      {
+        "id": "C",
+        "text": "o"
+      },
+      {
+        "id": "D",
+        "text": "Error"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 158,
+    "question": "Kết quả của all([2, 0, 1.7]) là?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Error"
+      },
+      {
+        "id": "B",
+        "text": "TRUE"
+      },
+      {
+        "id": "C",
+        "text": "FALSE"
+      },
+      {
+        "id": "D",
+        "text": "0"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 159,
+    "question": "round(3.764) cho kết quả?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "3.5"
+      },
+      {
+        "id": "C",
+        "text": "3.8"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 160,
+    "question": "Kết quả đoạn code:T = (1, 2, 3, 1, 5, 3, 3, 2)x = T.index(3)print(x)",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "13"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 161,
+    "question": "Hàm divmod(a, b) trong đó a và b là những số nguyên được diễn giải là:",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "(a/b, a%b)"
+      },
+      {
+        "id": "B",
+        "text": "(a div b, a mod b)"
+      },
+      {
+        "id": "C",
+        "text": "(a//b, a%b)"
+      },
+      {
+        "id": "D",
+        "text": "(a%b, a//b)"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 162,
+    "question": "Khẳng định nào đúng với hàm divmod()?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Hàm divmod trả về một danh sách chứa thương và dư"
+      },
+      {
+        "id": "B",
+        "text": "Hàm divmod() trả về một Tuple bao gồm thương và số dư của tham số 1 chia cho tham số 2"
+      },
+      {
+        "id": "C",
+        "text": "Hàm divmod trả về 1 giá trị"
+      },
+      {
+        "id": "D",
+        "text": "Hàm divmod không làm việc với số nguyên"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 163,
+    "question": "Đâu là kết quả của complex() trong những đáp án sau đây?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "0 + 0j"
+      },
+      {
+        "id": "B",
+        "text": "0j"
+      },
+      {
+        "id": "C",
+        "text": "Error"
+      },
+      {
+        "id": "D",
+        "text": "Tất cả các hàm trên"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 164,
+    "question": "Hàm nào sau đây chỉ chấp nhận số nguyên làm tham số?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "ord()"
+      },
+      {
+        "id": "B",
+        "text": "any()"
+      },
+      {
+        "id": "C",
+        "text": "chr()"
+      },
+      {
+        "id": "D",
+        "text": "Tất cả các hàm trên"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 165,
+    "question": "Kết quả đoạn code sau là gì? import statistics as sta; data = [1, 1, 2, 3, 3, 2, 1]; print(sta.mode(data))",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "2.5"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 166,
+    "question": "Kết quả đoạn code sau là gì? import statistics as sta; data = [1, 1, 2, 3, 3, 2, 1]; print(sta.median_high(data))",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "1.875"
+      },
+      {
+        "id": "D",
+        "text": "Error"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 167,
+    "question": "Kết quả đoạn code sau là gì? import statistics as sta; data = [3, 2, 2, 3, 3, 2, 1]; print(sta.variance(data))",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "0.5"
+      },
+      {
+        "id": "B",
+        "text": "0.707106"
+      },
+      {
+        "id": "C",
+        "text": "2.25"
+      },
+      {
+        "id": "D",
+        "text": "2"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 168,
+    "question": "Kết quả đoạn code sau là gì? import statistics as sta; data = [3, 2, 4, 3, 3, 2, 4, 1]; print(sta.median_low(data))",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 169,
+    "question": "Kết quả đoạn code sau là gì? import statistics as sta; print(sta.mode(['red', 'green', 'red', 'blue', 'blue']))",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Error"
+      },
+      {
+        "id": "B",
+        "text": "red"
+      },
+      {
+        "id": "C",
+        "text": "green"
+      },
+      {
+        "id": "D",
+        "text": "blue"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 170,
+    "question": "Kết quả đoạn code sau là gì? import numpy as np; data = np.array([1, 2, 9, 7, 5, 8]); print(np.median(data))",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "2"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 171,
+    "question": "Hàm nào thực hiện tính trung vị cho mảng X = numpy.array([5, np.nan, 7, 9])?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "numpy.nan_median()"
+      },
+      {
+        "id": "B",
+        "text": "numpy.median()"
+      },
+      {
+        "id": "C",
+        "text": "numpy.mediannan()"
+      },
+      {
+        "id": "D",
+        "text": "numpy.nanmedian()"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 172,
+    "question": "Câu lệnh nào mô phỏng tung đồng xu ngẫu nhiên 1000 lần với 0 là mặt ngửa, 1 là mặt úp?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "numpy.random.randint(0, 2)*1000"
+      },
+      {
+        "id": "B",
+        "text": "numpy.random.randint(2, size=1000)"
+      },
+      {
+        "id": "C",
+        "text": "numpy.random.randint(2, size = 1000)"
+      },
+      {
+        "id": "D",
+        "text": "numpy.random.randint(1, size = 1000)"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 173,
+    "question": "Kết quả của numpy.random.permutation(10) là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "[2, 1, 5, 3, 6, 9, 0, 8, 7]"
+      },
+      {
+        "id": "B",
+        "text": "[0, 1, 2, 3, 6, 7, 4, 8, 9, 2]"
+      },
+      {
+        "id": "C",
+        "text": "[0, 1, 5, 3, 6, 7, 4, 8, 3, 2]"
+      },
+      {
+        "id": "D",
+        "text": "[0, 1, 5, 3, 6, 7, 4, 8, 9, 2]"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 174,
+    "question": "Kết quả của numpy.random.rand() là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Trả về giá trị 0 hoặc 1"
+      },
+      {
+        "id": "B",
+        "text": "Trả về giá trị thuộc đoạn [0, 1]"
+      },
+      {
+        "id": "C",
+        "text": "Trả về giá trị thuộc khoảng [0, 1)"
+      },
+      {
+        "id": "D",
+        "text": "Error"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 175,
+    "question": "Kết quả numpy.amax(X, axis=0) với X như bảng là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "[89, 23, 92, 34, 12]"
+      },
+      {
+        "id": "B",
+        "text": "[92, 89]"
+      },
+      {
+        "id": "C",
+        "text": "92"
+      },
+      {
+        "id": "D",
+        "text": "Error"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 176,
+    "question": "Kết quả numpy.ptp(X) với X như bảng là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "92"
+      },
+      {
+        "id": "C",
+        "text": "89"
+      },
+      {
+        "id": "D",
+        "text": "Error"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 177,
+    "question": "Câu lệnh xem kích thước mảng X?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "numpy.size(X)"
+      },
+      {
+        "id": "B",
+        "text": "numpy.shape(X)"
+      },
+      {
+        "id": "C",
+        "text": "size(X)"
+      },
+      {
+        "id": "D",
+        "text": "dim(X)"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 178,
+    "question": "Hai biến xâu str1 và str2 = 'Hello' giống nhau, phát biểu nào đúng?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Hai biến nằm ở vùng nhớ khác nhau"
+      },
+      {
+        "id": "B",
+        "text": "Có cùng vùng nhớ"
+      },
+      {
+        "id": "C",
+        "text": "Có cùng id()"
+      },
+      {
+        "id": "D",
+        "text": "Cả B và C đúng"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 179,
+    "question": "Kết quả của đoạn code kiểm tra str1 + str2 == str3 và is?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "True / True"
+      },
+      {
+        "id": "B",
+        "text": "False / True"
+      },
+      {
+        "id": "C",
+        "text": "True / False"
+      },
+      {
+        "id": "D",
+        "text": "False / False"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 180,
+    "question": "Xác định kết quả đúng cho đoạn code sau: import re; s = 'Working harder and harder'; print(re.findall('harder', s))",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "['harder', 'harder']"
+      },
+      {
+        "id": "B",
+        "text": "('harder', 'harder')"
+      },
+      {
+        "id": "C",
+        "text": "[8, 19]"
+      },
+      {
+        "id": "D",
+        "text": "(8, 19)"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 181,
+    "question": "Python phiên bản 3.7 có bao nhiêu từ khóa?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "31"
+      },
+      {
+        "id": "B",
+        "text": "33"
+      },
+      {
+        "id": "C",
+        "text": "38"
+      },
+      {
+        "id": "D",
+        "text": "42"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 182,
+    "question": "Tạo danh sách không trùng lặp từ L1 = [1, 3, 2, 1, 3, 4, 3]?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "L2 = numpy.remove_duplicate(L1)"
+      },
+      {
+        "id": "B",
+        "text": "L2 = L1.remove_duplicate()"
+      },
+      {
+        "id": "C",
+        "text": "L2 = list.remove_duplicate(L1)"
+      },
+      {
+        "id": "D",
+        "text": "L2 = list(set(L1))"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 183,
+    "question": "Đảo ngược danh sách L = [\"Bắc Ninh\", True, False, \"Bac Giang\"]",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "list.reverse(L)"
+      },
+      {
+        "id": "B",
+        "text": "L.reverse()"
+      },
+      {
+        "id": "C",
+        "text": "numpy.reverse(L)"
+      },
+      {
+        "id": "D",
+        "text": "Phương án a và b"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 184,
+    "question": "Mảng c có kích thước bao nhiêu? a = numpy.random.randn(2,3); b = numpy.random.randn(2,1); c = a + b",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "(2,3)"
+      },
+      {
+        "id": "B",
+        "text": "(2,2)"
+      },
+      {
+        "id": "C",
+        "text": "(2,1)"
+      },
+      {
+        "id": "D",
+        "text": "(4,4)"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 185,
+    "question": "Mảng c có kích thước bao nhiêu? a = numpy.random.randn(4,3); b = numpy.random.randn(3,2); c = a * b",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "(4,3)"
+      },
+      {
+        "id": "B",
+        "text": "(3,3)"
+      },
+      {
+        "id": "C",
+        "text": "(4,2)"
+      },
+      {
+        "id": "D",
+        "text": "Error"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 186,
+    "question": "Kết quả của b.shape là gì? a = numpy.random.randn(4,3); b = numpy.sum(a, axis=1)",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "(4,1)"
+      },
+      {
+        "id": "B",
+        "text": "(4,)"
+      },
+      {
+        "id": "C",
+        "text": "(1,4)"
+      },
+      {
+        "id": "D",
+        "text": "Error"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 187,
+    "question": "Xác định câu lệnh đúng để xuất vị trí tìm được: import re; s = 'Working harder and harder'; idx = re.search('harder', s)",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "print(idx)"
+      },
+      {
+        "id": "B",
+        "text": "print(idx[0])"
+      },
+      {
+        "id": "C",
+        "text": "print(idx.start())"
+      },
+      {
+        "id": "D",
+        "text": "print(idx.tostring())"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 188,
+    "question": "Câu lệnh tìm tất cả vị trí pattern trong chuỗi s = 'Working harder and harder'",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "import re; idx = re.findall(pattern, s)"
+      },
+      {
+        "id": "B",
+        "text": "idx = re.finditer(pattern, s)"
+      },
+      {
+        "id": "C",
+        "text": "idx = re.search(pattern, s)"
+      },
+      {
+        "id": "D",
+        "text": "idx = re.match(pattern, s)"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 189,
+    "question": "Xét đoạn code: str1 = 'Hello'; str2 = 'Hello'; str3 = 'Hello'; print(id(str1) == id(str2)); print(id(str1) == id(str3))",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "True / True"
+      },
+      {
+        "id": "B",
+        "text": "True / False"
+      },
+      {
+        "id": "C",
+        "text": "True / False"
+      },
+      {
+        "id": "D",
+        "text": "Error"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 190,
+    "question": "Xét đoạn code sau. Đâu là kết quả đúng? print(\"ba\" > \"ball\"); print(\"cat\" < \"cat\")",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "True / True"
+      },
+      {
+        "id": "B",
+        "text": "True / False"
+      },
+      {
+        "id": "C",
+        "text": "False / False"
+      },
+      {
+        "id": "D",
+        "text": "Error"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 191,
+    "question": "Hàm nào đổi xâu \"how are you?\" thành \"How Are You?\"?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "capitalize()"
+      },
+      {
+        "id": "B",
+        "text": "title()"
+      },
+      {
+        "id": "C",
+        "text": "lower()"
+      },
+      {
+        "id": "D",
+        "text": "upper()"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 192,
+    "question": "Biểu tượng nào không được định nghĩa như là phép toán của xâu (string)?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "+"
+      },
+      {
+        "id": "B",
+        "text": "-"
+      },
+      {
+        "id": "C",
+        "text": "*"
+      },
+      {
+        "id": "D",
+        "text": "Không phải các biểu tượng trên"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 193,
+    "question": "Hàm nào đổi \"how are you?\" thành \"How are you?\"?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "capitalize()"
+      },
+      {
+        "id": "B",
+        "text": "title()"
+      },
+      {
+        "id": "C",
+        "text": "lower()"
+      },
+      {
+        "id": "D",
+        "text": "upper()"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 194,
+    "question": "Đâu không phải thuộc tính của 1 tập hợp (set)?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Mutable"
+      },
+      {
+        "id": "B",
+        "text": "Distinct"
+      },
+      {
+        "id": "C",
+        "text": "Unordered"
+      },
+      {
+        "id": "D",
+        "text": "Sorted"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 195,
+    "question": "Đâu là đầu ra của đoạn code sau? nums = {\"ONE\":1, \"TWO\":2}; print(nums[\"One\"])",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "ONE"
+      },
+      {
+        "id": "C",
+        "text": "Syntax error"
+      },
+      {
+        "id": "D",
+        "text": "Runtime error"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 196,
+    "question": "Đâu là đầu ra đúng của đoạn code sau? years = {1972: 'C', 1994: 'Python', 1995: 'Java'}; print(years.get(2000))",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Syntax error"
+      },
+      {
+        "id": "B",
+        "text": "Runtime error"
+      },
+      {
+        "id": "C",
+        "text": "None"
+      },
+      {
+        "id": "D",
+        "text": "Java"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 197,
+    "question": "Từ khóa else có thể sử dụng với lệnh nào?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "if"
+      },
+      {
+        "id": "B",
+        "text": "for"
+      },
+      {
+        "id": "C",
+        "text": "while"
+      },
+      {
+        "id": "D",
+        "text": "Tất cả các lệnh trên"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 198,
+    "question": "Kết quả đoạn code sau là gì? s1 = {1,2,3,4,5}; s2 = {4,5,6,7,8}; print(s1 | s2)",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "{1, 2, 3, 4, 5}"
+      },
+      {
+        "id": "B",
+        "text": "{4, 5, 6, 7, 8}"
+      },
+      {
+        "id": "C",
+        "text": "{1, 2, 3, 4, 5, 6, 7, 8}"
+      },
+      {
+        "id": "D",
+        "text": "Error"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 199,
+    "question": "Kết quả của đoạn code sau? s = set(\"Hello\"); print(s)",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "{'H', 'e', 'l', 'o'}"
+      },
+      {
+        "id": "B",
+        "text": "Error"
+      },
+      {
+        "id": "C",
+        "text": "{'H', 'e', 'l', 'l', 'o'}"
+      },
+      {
+        "id": "D",
+        "text": "{'e', 'l', 't', 'H', 'o'}"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 200,
+    "question": "Biến sử dụng bên trong một hàm là biến gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Biến cục bộ"
+      },
+      {
+        "id": "B",
+        "text": "Biến toàn cục"
+      },
+      {
+        "id": "C",
+        "text": "Biến tham chiếu"
+      },
+      {
+        "id": "D",
+        "text": "Biến tham trị"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 201,
+    "question": "Xác định kết quả của đoạn code sau: a = 10; def ham_so(): a = 20; return; print(a)",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "a = 20"
+      },
+      {
+        "id": "B",
+        "text": "a = 10"
+      },
+      {
+        "id": "C",
+        "text": "Syntax error"
+      },
+      {
+        "id": "D",
+        "text": "Runtime error"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 202,
+    "question": "Xác định kết quả của đoạn code: a = 8; fn = lambda x: x**x; print(fn(a))",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "64"
+      },
+      {
+        "id": "C",
+        "text": "256"
+      },
+      {
+        "id": "D",
+        "text": "Syntax error"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 203,
+    "question": "Xác định kết quả đoạn code: def display(x,y,z): print(x,y,z); s = (5,10,15); display(*s)",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "5 10 15"
+      },
+      {
+        "id": "B",
+        "text": "(5, 10, 15)"
+      },
+      {
+        "id": "C",
+        "text": "5 10 15"
+      },
+      {
+        "id": "D",
+        "text": "Error"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 204,
+    "question": "Chỉ thị nào không đúng cú pháp?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "import function from module"
+      },
+      {
+        "id": "B",
+        "text": "from module import function"
+      },
+      {
+        "id": "C",
+        "text": "import module"
+      },
+      {
+        "id": "D",
+        "text": "Tất cả đều đúng"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 205,
+    "question": "Lệnh nào để cài packages trong Python?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "IDLE"
+      },
+      {
+        "id": "B",
+        "text": "REPL"
+      },
+      {
+        "id": "C",
+        "text": "PIP"
+      },
+      {
+        "id": "D",
+        "text": "Tất cả các lệnh trên"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 206,
+    "question": "Đâu là module không xây dựng sẵn trong Python?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "math"
+      },
+      {
+        "id": "B",
+        "text": "os"
+      },
+      {
+        "id": "C",
+        "text": "random"
+      },
+      {
+        "id": "D",
+        "text": "pi"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 207,
+    "question": "Kết quả của lệnh print(randrange(1,10)) là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Xuất ra các số từ 1 đến 10"
+      },
+      {
+        "id": "B",
+        "text": "Xuất ra các số ngẫu nhiên từ 1 đến 10"
+      },
+      {
+        "id": "C",
+        "text": "Xuất ra một số ngẫu nhiên từ 1 đến 9"
+      },
+      {
+        "id": "D",
+        "text": "Xuất ra các số từ 1 đến 9"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 208,
+    "question": "Đâu không phải thuộc tính của module?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "__file__"
+      },
+      {
+        "id": "B",
+        "text": "__name__"
+      },
+      {
+        "id": "C",
+        "text": "__dict__"
+      },
+      {
+        "id": "D",
+        "text": "__list__"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 209,
+    "question": "self là gì trong Python?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Nó là từ khóa"
+      },
+      {
+        "id": "B",
+        "text": "Nó là thuộc tính của lớp"
+      },
+      {
+        "id": "C",
+        "text": "Tham chiếu đến đối tượng gọi hàm"
+      },
+      {
+        "id": "D",
+        "text": "Nó là hàm xây dựng sẵn"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 210,
+    "question": "Phạm vi truy nhập mặc định của biến và phương thức trong lớp là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Private"
+      },
+      {
+        "id": "B",
+        "text": "Public"
+      },
+      {
+        "id": "C",
+        "text": "Protected"
+      },
+      {
+        "id": "D",
+        "text": "Không phải cái nào trên"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 211,
+    "question": "Câu lệnh kế thừa một lớp trong Python là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "class subclass(baseclass):"
+      },
+      {
+        "id": "B",
+        "text": "class subclass(class baseclass):"
+      },
+      {
+        "id": "C",
+        "text": "def class subclass(baseclass):"
+      },
+      {
+        "id": "D",
+        "text": "Không phải các phương án trên"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 212,
+    "question": "Cách nào dùng để định nghĩa một thuộc tính mới cho lớp?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Sử dụng hàm property()"
+      },
+      {
+        "id": "B",
+        "text": "Sử dụng chỉ dẫn @property"
+      },
+      {
+        "id": "C",
+        "text": "Sử dụng phương thức set() và get()"
+      },
+      {
+        "id": "D",
+        "text": "Phương án 1 và 2 đúng"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 213,
+    "question": "Trong Python, hàm truyền tham số theo kiểu gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Tham chiếu"
+      },
+      {
+        "id": "B",
+        "text": "Tham trị"
+      },
+      {
+        "id": "C",
+        "text": "Có thể tham chiếu hoặc tham trị"
+      },
+      {
+        "id": "D",
+        "text": "Không phải các phương án trên"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 214,
+    "question": "Thuộc tính nào trả về tên của module?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "__name__"
+      },
+      {
+        "id": "B",
+        "text": "__main__"
+      },
+      {
+        "id": "C",
+        "text": "__init__()"
+      },
+      {
+        "id": "D",
+        "text": "__ctor__()"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 215,
+    "question": "Phương thức nào là phương thức khởi tạo của lớp?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "__main__()"
+      },
+      {
+        "id": "B",
+        "text": "__init__()"
+      },
+      {
+        "id": "C",
+        "text": "__ctor__()"
+      },
+      {
+        "id": "D",
+        "text": "Không phải các phương thức trên"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 216,
+    "question": "Phương thức __new__() có chức năng gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Khởi tạo 1 biến"
+      },
+      {
+        "id": "B",
+        "text": "Tạo một đối tượng mới"
+      },
+      {
+        "id": "C",
+        "text": "Là hàm khởi tạo của lớp"
+      },
+      {
+        "id": "D",
+        "text": "Phương án 1 và 2 đúng"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 217,
+    "question": "Hàm nào dùng để tham chiếu đến một đối tượng file?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "file()"
+      },
+      {
+        "id": "B",
+        "text": "object()"
+      },
+      {
+        "id": "C",
+        "text": "open()"
+      },
+      {
+        "id": "D",
+        "text": "read()"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 218,
+    "question": "Đâu không phải là kiểu lỗi được xây dựng sẵn trong Python?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "EOFError"
+      },
+      {
+        "id": "B",
+        "text": "IndexError"
+      },
+      {
+        "id": "C",
+        "text": "KeyError"
+      },
+      {
+        "id": "D",
+        "text": "LoopError"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 219,
+    "question": "Lệnh nào được sử dụng để quăng ra một lỗi?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "except"
+      },
+      {
+        "id": "B",
+        "text": "raise"
+      },
+      {
+        "id": "C",
+        "text": "throw"
+      },
+      {
+        "id": "D",
+        "text": "throw Except()"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 220,
+    "question": "Kết quả đoạn mã sau? S = {1, 2, 3}; r = 123; for x in S: print(x)",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "111"
+      },
+      {
+        "id": "B",
+        "text": "123"
+      },
+      {
+        "id": "C",
+        "text": "321"
+      },
+      {
+        "id": "D",
+        "text": "Runtime error"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 221,
+    "question": "Để nạp chồng toán tử ==, phương thức nào cần thực hiện?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "__comp__()"
+      },
+      {
+        "id": "B",
+        "text": "__eq__()"
+      },
+      {
+        "id": "C",
+        "text": "__equal__()"
+      },
+      {
+        "id": "D",
+        "text": "__ne__()"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 222,
+    "question": "Kết quả của đoạn code: colors = {1: 'blue', 2: 'red', 3: 'green'}; itm = colors.items(); print(itm)",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "dict_items([(1, 'blue'), (2, 'red'), (3, 'green')])"
+      },
+      {
+        "id": "B",
+        "text": "dict_items(['blue', 'red', 'green'])"
+      },
+      {
+        "id": "C",
+        "text": "[(1, 'blue'), (2, 'red'), (3, 'green')]"
+      },
+      {
+        "id": "D",
+        "text": "['blue', 'red', 'green']"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 223,
+    "question": "Các biến private trong một lớp được biểu diễn thế nào?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Một dấu underscore trước tên biến"
+      },
+      {
+        "id": "B",
+        "text": "Hai dấu underscore trước tên biến"
+      },
+      {
+        "id": "C",
+        "text": "Một dấu underscore trước và sau tên biến"
+      },
+      {
+        "id": "D",
+        "text": "Hai dấu underscore trước và sau tên biến"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 224,
+    "question": "Đâu không phải là kiểu lỗi được xây dựng sẵn trong Python?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "KeywordError"
+      },
+      {
+        "id": "B",
+        "text": "ImportError"
+      },
+      {
+        "id": "C",
+        "text": "TypeError"
+      },
+      {
+        "id": "D",
+        "text": "ValueError"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 225,
+    "question": "Cách nào khai báo một biến xâu trong Python?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "var name = \"James\""
+      },
+      {
+        "id": "B",
+        "text": "string name = \"James\""
+      },
+      {
+        "id": "C",
+        "text": "name = \"James\""
+      },
+      {
+        "id": "D",
+        "text": "dim name = \"James\""
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 226,
+    "question": "Hàm nào sau đây trả về kiểu của một biến?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "gettype()"
+      },
+      {
+        "id": "B",
+        "text": "typedef()"
+      },
+      {
+        "id": "C",
+        "text": "type()"
+      },
+      {
+        "id": "D",
+        "text": "print()"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 227,
+    "question": "Hàm list.pop() sẽ thực hiện gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Loại bỏ thành phần đầu tiên của list"
+      },
+      {
+        "id": "B",
+        "text": "Loại bỏ thành phần cuối cùng của list"
+      },
+      {
+        "id": "C",
+        "text": "Không có thành phần nào bị loại bỏ"
+      },
+      {
+        "id": "D",
+        "text": "Thành phần đầu và cuối bị loại bỏ"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 228,
+    "question": "Đâu là kết quả đúng của đoạn code: lst = [1,2,3]; lst[:] = [4,5,6]; print(lst)",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "[1, 2, 3]"
+      },
+      {
+        "id": "B",
+        "text": "[4, 5, 6]"
+      },
+      {
+        "id": "C",
+        "text": "[1, 2, 3, 4, 5, 6]"
+      },
+      {
+        "id": "D",
+        "text": "Error"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 229,
+    "question": "Khi thiết kế một lớp dựa trên một lớp đã có thì được gọi là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Overriding"
+      },
+      {
+        "id": "B",
+        "text": "Inheritance"
+      },
+      {
+        "id": "C",
+        "text": "Polymorphism"
+      },
+      {
+        "id": "D",
+        "text": "Không phải các từ trên"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 230,
+    "question": "Một lớp con định nghĩa lại phương thức kế thừa từ lớp cha gọi là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Overriding"
+      },
+      {
+        "id": "B",
+        "text": "Inheritance"
+      },
+      {
+        "id": "C",
+        "text": "Polymorphism"
+      },
+      {
+        "id": "D",
+        "text": "Overloading"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 231,
+    "question": "In giá của cuốn sách: class book { self.__price = 254 }; b1 = book()",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "print(book.__price)"
+      },
+      {
+        "id": "B",
+        "text": "print(b1.__price)"
+      },
+      {
+        "id": "C",
+        "text": "print(_book.__price)"
+      },
+      {
+        "id": "D",
+        "text": "print(b1._book__price)"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 232,
+    "question": "Kết quả: collections.Counter([1,2,2,3,3,4,4,4,5]).most_common(1)",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "[(4, 4)]"
+      },
+      {
+        "id": "B",
+        "text": "[(2, 2)]"
+      },
+      {
+        "id": "C",
+        "text": "[(4, 4), (2, 2)]"
+      },
+      {
+        "id": "D",
+        "text": "Error"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 233,
+    "question": "Xác định kết quả của class NhanVien: maNV = ma; tenNV = ten",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Syntax error"
+      },
+      {
+        "id": "B",
+        "text": "Runtime error"
+      },
+      {
+        "id": "C",
+        "text": "Hoạt động không như mong đợi"
+      },
+      {
+        "id": "D",
+        "text": "Hoạt động bình thường"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 234,
+    "question": "Cách tạo phương thức tĩnh trong Python?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Sử dụng hàm static()"
+      },
+      {
+        "id": "B",
+        "text": "Sử dụng @staticmethod"
+      },
+      {
+        "id": "C",
+        "text": "Sử dụng @classmethod"
+      },
+      {
+        "id": "D",
+        "text": "Python không có phương thức tĩnh"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 235,
+    "question": "Phần mở rộng tệp của module Python là gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": ".txt"
+      },
+      {
+        "id": "B",
+        "text": ".md"
+      },
+      {
+        "id": "C",
+        "text": ".py"
+      },
+      {
+        "id": "D",
+        "text": ".python"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 236,
+    "question": "Các module built-in của Python viết bằng ngôn ngữ nào?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "C"
+      },
+      {
+        "id": "B",
+        "text": "C++"
+      },
+      {
+        "id": "C",
+        "text": "Python"
+      },
+      {
+        "id": "D",
+        "text": "Java"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 237,
+    "question": "Khẳng định sai?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "log() trả về log tự nhiên"
+      },
+      {
+        "id": "B",
+        "text": "log10() trả về log cơ số 10"
+      },
+      {
+        "id": "C",
+        "text": "log10() trả về log của 10"
+      },
+      {
+        "id": "D",
+        "text": "Các khẳng định đều sai"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 238,
+    "question": "Lệnh cài đặt package?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "install package \"project name\""
+      },
+      {
+        "id": "B",
+        "text": "pip \"project name\""
+      },
+      {
+        "id": "C",
+        "text": "install \"project name\""
+      },
+      {
+        "id": "D",
+        "text": "pip install \"project name\""
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 239,
+    "question": "Lệnh: open(\"C:\\\\MyFile.txt\", '+')\nf = open(\"C:\\\\MyFile.txt\")\\nc = f.read()",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Mở tệp để ghi"
+      },
+      {
+        "id": "B",
+        "text": "Mở tệp để đọc hoặc ghi"
+      },
+      {
+        "id": "C",
+        "text": "Đọc một dòng từ tệp"
+      },
+      {
+        "id": "D",
+        "text": "Mở tệp và bổ sung vào cuối tệp"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 240,
+    "question": "Code sau làm gì?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Đọc ký tự đầu tiên của tệp MyFile.txt"
+      },
+      {
+        "id": "B",
+        "text": "Mở tệp để đọc"
+      },
+      {
+        "id": "C",
+        "text": "Đọc tất cả nội dung tệp MyFile.txt"
+      },
+      {
+        "id": "D",
+        "text": "Đọc một dòng từ tệp MyFile.txt"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 241,
+    "question": "Đâu là dãy số được sinh ra bởi hàm range(5)?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "1, 2, 3, 4, 5"
+      },
+      {
+        "id": "B",
+        "text": "1, 2, 3, 4"
+      },
+      {
+        "id": "C",
+        "text": "0, 1, 2, 3, 4"
+      },
+      {
+        "id": "D",
+        "text": "0, 1, 2, 3, 4, 5"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 242,
+    "question": "Kết quả của đoạn code sau là gì?\nfor ch in \"Hello\": print(ch, end=',')",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "Hello"
+      },
+      {
+        "id": "B",
+        "text": "H,e,l,l,o,"
+      },
+      {
+        "id": "C",
+        "text": "o,l,l,e,H"
+      },
+      {
+        "id": "D",
+        "text": "Error"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 243,
+    "question": "Kết quả của đoạn code sau là gì?\nx = 0\\nwhile x < 3:\\n    x += 1\\n    print(x, end=\"\")\\nelse:\\n    print('else')",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "012else"
+      },
+      {
+        "id": "B",
+        "text": "0123else"
+      },
+      {
+        "id": "C",
+        "text": "123else"
+      },
+      {
+        "id": "D",
+        "text": "123"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 244,
+    "question": "Cách biểu diễn dạng khoa học của số 0.00001234?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "1.23E-04"
+      },
+      {
+        "id": "B",
+        "text": "1.23E-05"
+      },
+      {
+        "id": "C",
+        "text": "1.23E-07"
+      },
+      {
+        "id": "D",
+        "text": "1.23E-05"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 245,
+    "question": "Phép toán nào dưới đây luôn trả về một số nguyên?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "%"
+      },
+      {
+        "id": "B",
+        "text": "//"
+      },
+      {
+        "id": "C",
+        "text": "/"
+      },
+      {
+        "id": "D",
+        "text": "\\"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 246,
+    "question": "Kết quả của đoạn code sau là gì?\nx = 1\\nprint(type(x))",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "integer"
+      },
+      {
+        "id": "B",
+        "text": "<class 'int'>"
+      },
+      {
+        "id": "C",
+        "text": "int"
+      },
+      {
+        "id": "D",
+        "text": "<class 'number'>"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 247,
+    "question": "Cho str = \"HelloWorld\", biểu thức nào cho phép lấy được từ \"World\"?",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "str[4:9]"
+      },
+      {
+        "id": "B",
+        "text": "str[5:9]"
+      },
+      {
+        "id": "C",
+        "text": "str[5:10]"
+      },
+      {
+        "id": "D",
+        "text": "str[5:10]"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 248,
+    "question": "Kết quả của đoạn code sau là gì?\ns1 = {1, 2, 3, 4, 5}\\ns2 = {4, 5, 6, 7}\\nprint(s1 - s2)",
+    "image": null,
+    "result": null,
+    "answers": [
+      {
+        "id": "A",
+        "text": "1, 2, 3"
+      },
+      {
+        "id": "B",
+        "text": "(1, 2, 3)"
+      },
+      {
+        "id": "C",
+        "text": "{1, 2, 3}"
+      },
+      {
+        "id": "D",
+        "text": "Error"
+      }
+    ],
+    "correct": "C"
+  }
+]
+}
