@@ -861,13 +861,41 @@
     <script>
 
 
- const password = prompt("Enter password:");
-    if (password !== "123456") {
-      document.write("Access denied");
-      throw new Error("Wrong password");
+ // Hàm bổ trợ
+  function pad2(n) {
+    return n.toString().padStart(2, '0');
+  }
+
+  // Tạo OTP từ ngày
+  function generateOTP(day, month, year) {
+    const yy = pad2(year % 100);
+    const mm = pad2(month);
+    const dd = pad2(day);
+
+    let raw = yy + mm + dd;
+    raw = raw.slice(2) + raw.slice(0, 2); // Xoay trái 2 số
+
+    let encrypted = "";
+    for (let i = 0; i < raw.length; i += 2) {
+      encrypted += raw[i + 1] + raw[i];  // đảo cặp
     }
 
-    
+    return encrypted;
+  }
+
+  // Lấy ngày hôm nay
+  const now = new Date();
+  const otpToday = generateOTP(now.getDate(), now.getMonth() + 1, now.getFullYear());
+
+  // Yêu cầu người dùng nhập mật khẩu
+  const password = prompt("Enter today's password (OTP):");
+
+  if (password !== otpToday) {
+    document.write("Access denied");
+    throw new Error("Wrong password");
+  }
+
+
         let allQuestions = [];
         let questions = [];
         let currentQuestionIndex = 0;
